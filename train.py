@@ -99,7 +99,7 @@ def train_and_test_model(model,device, num_epochs=120, learning_rate=0.01,stepsi
     #     'optimizer_state_dict': optimizer.state_dict(),
     #     'loss': loss,
     #
-    # },  f'Epoch {epoch + 1}'+'nnunet_attention_train.pt' )
+    # },  f'Epoch {epoch + 1}'+'model_dict.pt' )
 
     return model, train_loss_history, train_dice_history, train_iou_history, val_loss_history, val_dice_history, val_iou_history
 
