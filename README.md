@@ -9,5 +9,5 @@ MACPnet, based on multi-axis attention and convolution parallelism, is capable o
 
 # Note
 In order to be able to reproduce the code more securely, if the script is unable to download the pre-training weights automatically, you can also download them yourself and put them in the specified folder.
-C:\Users\your_computer_name\.cache\huggingface\hub
+C:\Users\your_computer_name\ .cache\huggingface\hub
 https://drive.google.com/file/d/1Eax9eBS_O5681x1vMVtObw8VuaKTOMbA/view?usp=sharing
