@@ -1,4 +1,4 @@
-# MAPCnet
+# MACPnet
 MACPnet, based on multi-axis attention and convolution parallelism, is capable of simultaneously capturing long-range and local relationships among the original image pixels. In the segmentation task of organoid structures, it has achieved a certain level of improvement.
 <img src="https://github.com/ucas-dx/MAPCnet/assets/77724813/0c1a07ba-a2a7-45f0-8354-873ac014108d" width="600px">
 
