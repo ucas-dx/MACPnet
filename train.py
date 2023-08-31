@@ -4,7 +4,7 @@
 # @Author  : Denxun
 # @FileName: train.py
 # @Software: PyCharm
-from model import MACPnet
+from model import MAPCnet
 from utils import *
 import torch.nn as nn
 import os
@@ -24,7 +24,7 @@ torch.cuda.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)  # if you are using multi-GPU.
 torch.backends.cudnn.benchmark = False
 torch.backends.cudnn.deterministic = True
-model = MACPnet.MACPnet()
+model = MACPnet.MAPCnet()
 
 
 def train_and_test_model(model,device, num_epochs=120, learning_rate=0.01,stepsize=50,stepgamma=0.5):
